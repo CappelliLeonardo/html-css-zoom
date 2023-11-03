@@ -19,3 +19,25 @@ html{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* MAIN  */
+.camera-view{
+    height: 200px;
+    width: 300px;
+}
+
+.img{
+    position: relative;
+    display: inline-block;
+}
+.icons{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(198, 175, 175, 0.299);
+    margin-bottom: 3px;
+    color: white;
+}
+img{
+    width: 100%;
+}
