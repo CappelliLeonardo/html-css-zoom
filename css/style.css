@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: lighter;
 }
 
 /*
@@ -16,19 +17,29 @@ html{
 }
 
 .container{
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
 }
 
 /* MAIN  */
+
+main{
+    background-color: black;
+    height: calc(100vh - 65px);
+}
 .camera-view{
     height: 200px;
     width: 300px;
 }
 
+.cameras-container{
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .img{
     position: relative;
-    display: inline-block;
 }
 .icons{
     position: absolute;
@@ -41,3 +52,44 @@ html{
 img{
     width: 100%;
 }
+
+/* FOOTER */
+
+footer{
+    background-color: #222;
+    color: white;
+    height: 65px;
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon{
+    text-align: center;
+    padding: 5px;
+}
+
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+#end-meeting{
+    font-weight: bold;
+}
+.footer-section.end{
+    background-color: rgb(114, 108, 108);
+    color: red;
+    padding: 20px;
+}
+
+
+
+
+
