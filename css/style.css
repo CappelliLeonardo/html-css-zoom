@@ -16,17 +16,35 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
+/* .container{ */
     /* max-width: 1200px; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
+/* } */
+
+
+header{
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding: 5px;
 }
 
+button{
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+    border: none;
+    background-color: gray;
+
+}
 /* MAIN  */
 
 main{
     background-color: black;
-    height: calc(100vh - 65px);
+    height: calc(100vh - 100px);
     overflow: auto;
+    padding-top: 50px;
+    position: relative;
 }
 
 
@@ -35,8 +53,6 @@ main{
     justify-content: center;
     flex-wrap: wrap;
 }
-
-
 
 .thumb-nails{
     position: relative;
@@ -74,6 +90,9 @@ footer{
     padding: 5px;
 }
 
+#share-icon{
+    color: green;
+}
 .footer-section{
     display: flex;
     align-items: center;
